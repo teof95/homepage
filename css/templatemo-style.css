@@ -264,6 +264,21 @@ header .social-icon li a
 		margin-bottom: 20px;
 		margin-right: 20px;
 	}
+
+	.fas,
+	.fad,
+	.far{
+		border: 1px solid #fff;
+		border-radius: 2px;
+		color: #fff;
+		font-size: 24px;
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		text-align: center;
+		margin-bottom: 20px;
+		margin-right: 20px;
+	}
 #about .media-heading-wrapper h3
 	{
 		font-size: 18px;
@@ -298,6 +313,12 @@ header .social-icon li a
 		display: block;
 		font-weight: bold;
 		padding-bottom: 12px;
+	}
+
+.team-wrapper-img	{
+		display: flex;
+		justify-content: center;
+		/* background-color: yellow; */
 	}
 /* end team */
 
