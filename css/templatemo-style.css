@@ -353,7 +353,8 @@ header .social-icon li a
 	{
 		padding: 40px;
 	}
-#service .fa
+#service .fa,
+#service .fas
 	{
 		border: 1px solid #fff;
 		border-radius: 2px;
@@ -363,6 +364,7 @@ header .social-icon li a
 		height: 100px;
 		line-height: 100px;
 		text-align: center;
+		margin: 0
 	}
 #service h4
 	{
@@ -629,4 +631,15 @@ header .social-icon li a
 		}
 
 }
+
+
+.icon-small{
+	height: 80px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+
+
+
 /* end 360 media quires */
