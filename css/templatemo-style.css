@@ -264,7 +264,11 @@ header .social-icon li a
 	{
 		padding-bottom: 32px;
 	}
-#about .media-heading-wrapper .fa
+#about .media-heading-wrapper .fa,
+#about .media-heading-wrapper .fas,
+#about .media-heading-wrapper .far
+
+
 	{
 		border: 1px solid #fff;
 		border-radius: 2px;
@@ -278,20 +282,7 @@ header .social-icon li a
 		margin-right: 20px;
 	}
 
-	/* .fas,
-	.fad,
-	.far{
-		border: 1px solid #fff;
-		border-radius: 2px;
-		color: #fff;
-		font-size: 24px;
-		width: 60px;
-		height: 60px;
-		line-height: 60px;
-		text-align: center;
-		margin-bottom: 20px;
-		margin-right: 20px;
-	} */
+
 #about .media-heading-wrapper h3
 	{
 		font-size: 18px;
@@ -353,8 +344,7 @@ header .social-icon li a
 	{
 		padding: 40px;
 	}
-#service .fa,
-#service .fas
+#service .fa, #service .fas
 	{
 		border: 1px solid #fff;
 		border-radius: 2px;
