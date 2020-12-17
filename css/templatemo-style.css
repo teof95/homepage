@@ -374,10 +374,10 @@ header .social-icon li a
 		padding-bottom: 14px;
 	}
 
-.icon-wrapper img{
-		height: 80px !important;
-		margin-top: 10px !important;
-		margin-right: 10px !important;
+.icon-small{
+		height: 80px;
+		margin-top: 10px;
+		margin-right: 10px;
 	}
 /* end service */
 
