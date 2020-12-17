@@ -374,7 +374,7 @@ header .social-icon li a
 		padding-bottom: 14px;
 	}
 
-.icon-small{
+#service .icon-wrapper img{
 		height: 80px;
 		margin-top: 10px;
 		margin-right: 10px;
