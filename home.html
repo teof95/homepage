@@ -8,7 +8,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<meta property="og:image" content="https://alexkantsadis.herokuapp.com/images/Logoname.JPG">
+		<meta property="og:image" content="https://www.takantsadis.com/images/Logoname.JPG">
 		<meta property="og:image:type" content="image/jpeg">
 		<meta property="og:image:width" content="200">
 		<meta property="og:image:height" content="200">
@@ -78,7 +78,7 @@
 						<span class="icon icon-bar"></span>
 						<span class="icon icon-bar"></span>
 					</button>
-					<a href="https://alexkantsadis.herokuapp.com/" class="navbar-brand">T.A. Kantsadis</a>
+					<a href="/home.html" class="navbar-brand">T.A. Kantsadis</a>
 				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
@@ -375,7 +375,9 @@
     				</div>
     				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.9s">
 						
-    					<form name="contactform" action="mailto:t.a.kantsadis@gmail.com" target="_blank" method="post" id="contactform" enctype="text/plain">
+						<!-- <form name="contactform" action="mailto:t.a.kantsadis@gmail.com" target="_blank" method="post" id="contactform" enctype="text/plain"> -->
+						<form name="contactform" action="POST" data-netlify="true">
+
     						<label>FIRST NAME</label>
 							<input name="First Name" type="text" class="form-control" id="FirstName"/>
 							
@@ -387,7 +389,8 @@
    						  	
                             <label>YOUR MESSAGE</label>
     						<textarea name="Message" rows="4" class="form-control" id="message"></textarea>
-    						
+							<div data-netlify-recaptcha="true"></div>
+							
                             <input type="submit" value="Send" class="form-control">
 						</form>
 					</div>
