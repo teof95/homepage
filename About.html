@@ -7,7 +7,6 @@
 		<meta name="description" content="">
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
 		<meta property="og:image" content="https://www.takantsadis.com/images/Logoname.JPG">
 		<meta property="og:image:type" content="image/jpeg">
 		<meta property="og:image:width" content="200">
@@ -26,10 +25,8 @@
 		<script src="js/custom.js"></script>
 		<link rel="icon" type="image/png" href="images/logo.JPG"> 
 		<script language="JavaScript" src="scripts/gen_validatorv31.js" type="text/javascript"></script>
-
 	</head>
 	<body id="top">
-
 		<div class="preloader">
 			<div class="sk-spinner sk-spinner-wave">
      	 		<div class="sk-rect1"></div>
@@ -85,16 +82,12 @@
 			</div>
 		</nav>
 		
-
-
 		<section id="about">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
     					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">A <span> LITTLE</span> BIT ABOUT <span>ME</span></h2>
 					</div>
-					
-					<!-- <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.6s">  -->
 						<div class="media">
 							<div class="media-heading-wrapper">
 								<div class="media-object pull-left"> 
@@ -108,27 +101,21 @@
 						<h3>The story of how I became a Full Stack Web Developer after a career as environmental engineer.</h3>
 							<p>My first contac with coding started when I was working for LG Electronics. During my work there, I had to deal with some internal applications but there was a dedicated person for that job. When that person left the company, suddenly I had to deal with CODING. I had to google and watch videos on youtube in order to understand how it works.</p>
 							<p>I also have some hobbies. <strong>Hiking, Cycling, Running, Photography and Video shooting and edditing</strong>. I usually go to diffent places and I have seen great landscapes. </p>
-
 							<p>My coding adventure started with playing with HTML and CSS when I started thinking that I want to create a website and start showing all the pictures and videos I had.</p>
 							<p>I found few templates and started playing with them using tutorials! <strong> That was it!</strong></p>
-							
 							<p>I also like <strong> technology!</strong> I am one of those nerds with hundreds of gadgets who reads all the news about technologies! But what is the point of having the gadgets and not knowing how to use it?</p>
-							<p>I started playing with <strong>Adobe applications</strong> (Photoshop, Premiere, Illustrator) and Luminar. I also started playing and experiment with 3D tours and 360 cameras! I like everything which gives the sense of creativity!</p>
+							<p>I started playing with <strong>Adobe applications</strong> (Photoshop, Premiere, Illustrator) and Luminar. I also started playing and experiment with 3D tours and 360 cameras! I like everything that gives the sense of creativity!</p>
 							<p>But the real moment came when I started working on my personal website for video and pictures portfolio! </p>
 							<p>I realised that <strong> development is so interesting!!</strong> There are so many different ways of doing things and different languages and versions! I was googling and wathing videos and tutorials all the time! I realised that there are so many information around and I had to put them in an order!</p>
 							<br>
 							<h1>Iron hack</h1>
-							 <h3>How I ended up becoming an Ironhacker</h3>
-
+							<h3>How I ended up becoming an Ironhacker</h3>
 							<p>After I returned back to Amsterdam from work in UK and with a lockdown in place, I discovered Ironhack. I had a friend who also liked coding and he told me about <strong> Ironhack</strong> </p> 
 							<p>I though that this was a great chance to start learning with a professor and a structured study program from a professional coding academy</p>
-
 							<p>I went on their website, I saw the materials, contact few previous students to get a feedback from them and send my application! Few days after and few tests after, I received the confirmation from the school that I have been accepted!</p>
 							<p>I started working on the labs from Ironhack and things started being more clear!</p>
 							<p>After 10 weeks of course I couldn't imagine that this is the end, that I will leave this school. I was very sad. I loved the people and the eveydaylife! During this time I created couple of amazing applications, websites, 
-							I did more than 200 exercises. During this time I learn bunch of new technologies <a href="https://drive.google.com/file/d/1quTGVFUqTl2Ci2L7LJmeZqwXpUx4BVxu/view?usp=sharing" >(more in my CV</a>) like:
-							
-
+							I did more than 100 exercises. During this time I learn bunch of new technologies <a href="https://drive.google.com/file/d/1E1jXTMoBMdTE-ZNWx_DLWdbB94i5QK1e/view?usp=sharing" target="_blank">(more in my CV</a>) like:
 							<ul>
 								<li>React</li>
 								<li>JavaScript</li>
@@ -142,11 +129,8 @@
 								<li>object-oriented programming</li>
 								<li>Git and GitHub & Version Control</li>
 							</ul>
-
-							Currently I am working on <strong> personal</strong> projects in order to expand my knowledge on other aspecs (like Redux and php) and actively looking for my first job as web developer! 
-							
-
- </p>
+							Currently I am working on <strong> personal</strong> projects in order to expand my knowledge on other aspecs (like Redux and PHP) and actively looking for my first full time job as web developer! 
+							</p>
 	
 					</div>
 					</div>
@@ -164,8 +148,9 @@
     					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">CONTACT <span>ME</span></h2>
     				</div>
     				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.9s">
-						
-    					<form name="contactform" action="mailto:t.a.kantsadis@gmail.com" method="post" id="contactform" enctype="text/plain">
+					
+						<form name="contactform" action="POST" data-netlify="true">
+
     						<label>FIRST NAME</label>
 							<input name="First Name" type="text" class="form-control" id="FirstName"/>
 							
@@ -177,7 +162,8 @@
    						  	
                             <label>YOUR MESSAGE</label>
     						<textarea name="Message" rows="4" class="form-control" id="message"></textarea>
-    						
+							<div data-netlify-recaptcha="true"></div>
+							
                             <input type="submit" value="Send" class="form-control">
 						</form>
 					</div>
@@ -213,15 +199,24 @@
 
 		
 
-		<script language="JavaScript">
-			// Code for validating the form
-			// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
-			// for details
-			var frmvalidator  = new Validator("contactform");
-			frmvalidator.addValidation("name","req","Please provide your name"); 
-			frmvalidator.addValidation("email","req","Please provide your email"); 
-			frmvalidator.addValidation("email","email","Please enter a valid email address"); 
-		</script>
+		<script language="JavaScript" type="text/javascript"
+		xml:space="preserve">
+	
+	  var frmvalidator  = new Validator("contactform");
+	  frmvalidator.addValidation("FirstName","req","Please enter your First Name");
+	  frmvalidator.addValidation("FirstName","maxlen=20",	"Max length for FirstName is 20");
+	  frmvalidator.addValidation("FirstName","alpha","Alphabetic chars only");
+	  
+	  frmvalidator.addValidation("LastName","req","Please enter your Last Name");
+	  frmvalidator.addValidation("LastName","maxlen=20","Max length is 20");
+	  
+	  frmvalidator.addValidation("email","maxlen=50");
+	  frmvalidator.addValidation("email","req");
+	  frmvalidator.addValidation("email","email");
+	
+	  frmvalidator.addValidation("message","req","Message is empty. Please type your message");
+	 
+	</script>
 
 	</body>
 </html>
