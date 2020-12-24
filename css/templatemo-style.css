@@ -259,6 +259,14 @@ header .social-icon li a
 	padding: 40px;
 }	
 
+#about .col-md-4 a{
+	text-decoration: none;
+	}
+	
+#about .col-md-4 h3{
+		color: white;
+		}
+
 
 #about .media-heading-wrapper
 	{
@@ -281,6 +289,7 @@ header .social-icon li a
 		margin-bottom: 20px;
 		margin-right: 20px;
 	}
+
 
 
 #about .media-heading-wrapper h3
